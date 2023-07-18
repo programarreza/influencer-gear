@@ -76,6 +76,16 @@ nav ul li a{
 	position: center;
 	background-repeat: no-repeat;
 }
+/* sponsors section style */
+.sponsors-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+
 
 
 
@@ -95,6 +105,7 @@ nav ul li a{
 	nav ul li {
 		margin-left: 1rem;
 	}
+	/* banner  section */
 	.banner {
 		flex-direction: column-reverse;
 		text-align: center;
@@ -112,6 +123,17 @@ nav ul li a{
 	}
 	.banner-img img {
 		margin: 0;
+	}
+	/* sponsors section */
+	.sponsors-content {
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	.sponsors-content img {
+		width: 80px;
+		height: 30px;
+		text-align: center;
+		margin: 10px auto;
 	}
 }
 
